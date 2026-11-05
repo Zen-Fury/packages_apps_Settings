@@ -40,6 +40,7 @@
     <string name="text_maintainer">Người bảo trì</string>
     <string name="text_kernel_version">Kernel</string>
     <string name="official_build_suffix">- Chính thức</string>
+    <string name="premium_build_suffix">- Premium</string>
     <string name="unofficial_build_suffix">- Không chính thức</string>
     <string name="ram_active_label">Đang hoạt động</string>
 

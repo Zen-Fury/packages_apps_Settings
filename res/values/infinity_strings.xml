@@ -26,6 +26,7 @@
     <string name="text_maintainer">Maintainer</string>
     <string name="text_kernel_version">Kernel</string>
     <string name="official_build_suffix">- Official</string>
+    <string name="premium_build_suffix">- Premium</string>
     <string name="unofficial_build_suffix">- Unofficial</string>
     <string name="ram_active_label">Active</string>
 
