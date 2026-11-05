@@ -120,6 +120,10 @@ public class OosAboutPreference extends BasePreferenceController implements View
     	    infinityVersionText += " " + context.getString(R.string.official_build_suffix);
     	    greenAnimationView.setVisibility(View.VISIBLE);
     	    redAnimationView.setVisibility(View.GONE);
+    	} else if ("PREMIUM".equalsIgnoreCase(buildType)) {
+    	    infinityVersionText += " " + context.getString(R.string.premium_build_suffix);
+    	    greenAnimationView.setVisibility(View.VISIBLE);
+    	    redAnimationView.setVisibility(View.GONE);
     	} else {
     	    infinityVersionText += " " + context.getString(R.string.unofficial_build_suffix);
     	    greenAnimationView.setVisibility(View.GONE);
