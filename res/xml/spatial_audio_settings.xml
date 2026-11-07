@@ -35,6 +35,15 @@
         android:title="@string/spatial_audio_wired_headphones"
         settings:controller="com.android.settings.notification.SpatialAudioWiredHeadphonesController"/>
 
+    <Preference
+        android:key="spatial_audio_bluetooth"
+        android:title="@string/bluetooth"
+        android:summary="@string/spatial_audio_footer_title"
+        android:icon="@drawable/ic_settings_bluetooth">
+        <intent
+            android:action="android.settings.BLUETOOTH_SETTINGS" />
+    </Preference>
+
     <com.android.settingslib.widget.FooterPreference
         android:key="spatial_audio_footer"
         android:title="@string/spatial_audio_footer_title"
